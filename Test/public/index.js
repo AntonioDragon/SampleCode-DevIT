@@ -14,9 +14,9 @@ $sections.each(function(i,el){
 })
 });
 
-$("nav").on("click","a", function (event) {
+/*$("nav").on("click","a", function (event) {
    event.preventDefault();
    var id  = $(this).attr('href'),
-       top = $(id).offset().top;
-   $('body,html').animate({scrollTop: top}, 50);
-});
+     top = $(id).offset().top;
+   $('html,body').animate({scrollTop: top}, 50);
+});*/
